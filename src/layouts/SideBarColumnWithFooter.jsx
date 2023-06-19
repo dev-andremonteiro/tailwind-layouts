@@ -1,4 +1,5 @@
-import "./App.css";
+import "../App.css";
+import Footer from "../components/Footer";
 
 function SideBarColumnWithFooter() {
   return (
@@ -13,6 +14,7 @@ function SideBarColumnWithFooter() {
                     className="nav-link text-purple-800 hover:text-purple-600 truncate"
                     href="/#home"
                   >
+                    <span className="fa fa-home mr-2" />
                     Home
                   </a>
                 </li>
@@ -21,6 +23,7 @@ function SideBarColumnWithFooter() {
                     className="nav-link text-purple-800 hover:text-purple-600 truncate"
                     href="/#orders"
                   >
+                    <span className="fa fa-list-alt mr-2" />
                     Orders
                   </a>
                 </li>
@@ -29,6 +32,7 @@ function SideBarColumnWithFooter() {
                     className="nav-link text-purple-800 hover:text-purple-600 truncate"
                     href="/#products"
                   >
+                    <span className="fa fa-cart-plus mr-2"/>
                     Products
                   </a>
                 </li>
@@ -37,6 +41,7 @@ function SideBarColumnWithFooter() {
                     className="nav-link text-purple-800 hover:text-purple-600 truncate"
                     href="/#customers"
                   >
+                    <span className="fa fa-user mr-2" />
                     Customers
                   </a>
                 </li>
@@ -44,7 +49,7 @@ function SideBarColumnWithFooter() {
                   <a
                     className="nav-link text-purple-800 hover:text-purple-600 truncate"
                     href="/#reports"
-                  >
+                  ><i className="fa fa-chart-bar mr-2"></i>
                     Reports
                   </a>
                 </li>
@@ -53,6 +58,7 @@ function SideBarColumnWithFooter() {
                     className="nav-link text-purple-800 hover:text-purple-600 truncate"
                     href="/#intergrations"
                   >
+                    <span className="fa fa-layer-group mr-2" />
                     Intergrations
                   </a>
                 </li>
@@ -212,43 +218,9 @@ function SideBarColumnWithFooter() {
           </main>
         </div>
       </div>
-      <footer className="bg-black mt-auto">
-        <div className="container p-4 text-white mx-auto">
-          <h1 className="text-2xl">Footer</h1>
-          <div className="flex">
-            <div className="flex-grow flex flex-col">
-              <a href="/#home">Boom</a>
-              <a href="#">Boom</a>
-              <a href="#">Boom</a>
-              <a href="#">Boom</a>
-            </div>
-            <div className="flex-grow flex flex-col">
-              <a href="#">Boom</a>
-              <a href="#">Boom</a>
-              <a href="#">Boom</a>
-              <a href="#">Boom</a>
-            </div>
-            <div className="flex-grow flex flex-col">
-              <a href="#">Boom</a>
-              <a href="#">Boom</a>
-              <a href="#">Boom</a>
-            </div>
-            <div className="flex-grow flex flex-col">
-              <a href="#">Boom</a>
-              <a href="#">Boom</a>
-              <a href="#">Boom</a>
-              <a href="#">Boom</a>
-            </div>
-          </div>
-          <div className="text-right text-xs py-4">
-            <a href="">&copy;2023 Tropical Code</a>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
 
 export default SideBarColumnWithFooter;
-
-
