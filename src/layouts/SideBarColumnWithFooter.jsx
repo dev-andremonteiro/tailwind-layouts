@@ -1,4 +1,3 @@
-import "../App.css";
 import Footer from "../components/Footer";
 
 function SideBarColumnWithFooter() {
@@ -32,7 +31,7 @@ function SideBarColumnWithFooter() {
                     className="nav-link text-purple-800 hover:text-purple-600 truncate"
                     href="/#products"
                   >
-                    <span className="fa fa-cart-plus mr-2"/>
+                    <span className="fa fa-cart-plus mr-2" />
                     Products
                   </a>
                 </li>
@@ -49,7 +48,8 @@ function SideBarColumnWithFooter() {
                   <a
                     className="nav-link text-purple-800 hover:text-purple-600 truncate"
                     href="/#reports"
-                  ><i className="fa fa-chart-bar mr-2"></i>
+                  >
+                    <i className="fa fa-chart-bar mr-2"></i>
                     Reports
                   </a>
                 </li>
