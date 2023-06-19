@@ -1,11 +1,11 @@
-import 'fontawesome-free/css/all.min.css';
-import "./App.css";
-import SideBarColumnWithFooter from "./layouts/SideBarColumnWithFooter";
+import "fontawesome-free/css/all.min.css";
+// import SideBarColumnWithFooter from "./layouts/SideBarColumnWithFooter";
+import FixedSidebarFluidFixedSidebar from "./layouts/FixedSidebarFluidFixedSidebar";
 
 function App() {
   return (
-    <SideBarColumnWithFooter />
-
+    // <SideBarColumnWithFooter />
+    <FixedSidebarFluidFixedSidebar />
   );
 }
 
